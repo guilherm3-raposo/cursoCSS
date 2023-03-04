@@ -14,13 +14,18 @@ nav ul li{
     cursor: pointer;
 }
 
+.btn-form{
+    width: 96%;
+    display: inline-flex;
+}
+
 .btn-form-cadastrar{
     border-radius: 10%;
     border: none;
     color: white;
     background-color: green;
     cursor: pointer;
-    margin-top: 5%;
+    margin: 2%;
     width: 100px;
     height: 25px;
 }
@@ -31,7 +36,7 @@ nav ul li{
     color: white;
     background-color: red;
     cursor: pointer;
-    margin-top: 5%;
+    margin: 2%;
     width: 100px;
     height: 25px;
 }
@@ -43,14 +48,23 @@ nav ul li{
 }
 
 .lb-form{
-    width: 30%;
+    width: 16%;
     display: inline-flex;
+    margin: 1%;
+    color: blue;
     
 }
 
 .input-form{
-    width: 69%;
+    width: 76%;
     display: inline-flex;
+    margin: 1%;
+}
+
+.component-form{
+    width: 100%;
+    color: blue;
+
 }
 
 /* IDs*/
