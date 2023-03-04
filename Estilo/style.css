@@ -1,6 +1,6 @@
 /* Elementos HTML */
 nav ul li{
-    list-style: nome;
+    list-style: none;
     display: inline;
 }
 
@@ -16,7 +16,7 @@ nav ul li{
 
 .btn-form-cadastrar{
     border-radius: 10%;
-    border: name;
+    border: none;
     color: white;
     background-color: green;
     cursor: pointer;
@@ -27,7 +27,7 @@ nav ul li{
 
 .btn-form-cancela{
     border-radius: 10%;
-    border: name;
+    border: none;
     color: white;
     background-color: red;
     cursor: pointer;
@@ -43,13 +43,14 @@ nav ul li{
 }
 
 .lb-form{
-    margin: 10px;
+    width: 30%;
+    display: inline-flex;
     
 }
 
 .input-form{
-    width: 200px;
-    margin: 2px;
+    width: 69%;
+    display: inline-flex;
 }
 
 /* IDs*/
@@ -59,5 +60,5 @@ nav ul li{
 #f-form-contato{
     border-color: blue;
     border-radius: 10px;
-    width: 30%;
+    width: 50%;
 }
